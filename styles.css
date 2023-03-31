@@ -1,4 +1,4 @@
-nav {
+nav, main {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -10,7 +10,7 @@ nav {
     margin-bottom: auto;
 }
 input[type="text"] {
-    margin-left: -30px;
+    margin-right: 370px;
     margin-top: 12px;
     width: 500px;
     height: 35px;
@@ -22,7 +22,26 @@ input[type="text"] {
     font-size: 14px;
 }
 .search-button {
-    margin-right: 400px;
+    margin-left: 940px;
     margin-top: 12px;
     border: solid white;
+    position: fixed;
+}
+.voice-search {
+    margin-top: 12px;
+    position: right;
+    margin-left: 1005px;
+    position: fixed;
+}
+.video-upload-logo {
+    margin-top: 12px;
+    margin-right: 28px;
+}
+.notification {
+    margin-top: 12px;
+    margin-right: 28px; 
+}
+.avatar {
+    margin-top: 12px;
+    margin-right: 28px;
 }
