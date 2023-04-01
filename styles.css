@@ -3,14 +3,17 @@ nav, main {
     align-items: center;
     justify-content: space-between;
 }
+.navbar {
+    margin-left: 30px;
+}
 .youtube-logo {
-    margin-left: 15px;
+    margin-left: 20px;
     margin-right: auto;
     margin-top: 5px;
     margin-bottom: auto;
 }
 input[type="text"] {
-    margin-right: 370px;
+    margin-right: 360px;
     margin-top: 12px;
     width: 500px;
     height: 35px;
@@ -44,4 +47,61 @@ input[type="text"] {
 .avatar {
     margin-top: 12px;
     margin-right: 28px;
+}
+
+.thmnails {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1500px;
+    margin-left: 100px;
+    padding: 2px 10px;
+}
+.thmnails img {
+    border-radius: 15px;
+}
+.suggetion-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    max-width: 15px;
+    margin-left: 0, auto;
+    padding: 30px 5px;
+    margin-left: 120px;
+}
+.suggetion-buttons button {
+    width: auto;
+    height: 30px;
+    border-radius: 7px;
+    border: none;
+}
+
+.leftside-navbar {
+    display: flex;
+    flex-direction: column;
+    margin-top: -850px;
+    gap: 12px;
+}
+.leftside-navbar img {
+    margin-left: 30px;
+}
+.p1 {
+    margin-left: 23px;
+    margin-top: -2px;
+}
+.p2 {
+    margin-left: 22px;
+    margin-top: -2px;
+}
+.p3 {
+    margin-left: 3px;
+    margin-top: -2px;
+}
+.p4 {
+    margin-left: 20px;
+    margin-top: -2px;
 }
